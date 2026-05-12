@@ -1,0 +1,46 @@
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+# PERSONAL CLAUDE CODE TOOLING — never committed, never shared
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+CLAUDE.md
+.claude/
+.specify/
+scripts/personal/
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+# TERRAFORM — working files, never committed
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.tfplan.json
+*.tfvars
+.terraform.lock.hcl
+override.tf
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+# LOCAL ENVIRONMENT — credentials and secrets
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+.env
+*.pem
+*.key
+credentials.json
+backend.local.hcl
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+# NODE / PYTHON tooling
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+# OS / EDITOR
+# ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+*.log
+# ALZ library cache
+**/.alzlib/
+# Named plan files (not covered by *.tfplan glob)
+**/*.plan
+# Terraform errored state files
+**/errored.tfstate
