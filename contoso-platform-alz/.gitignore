@@ -38,3 +38,9 @@ __pycache__/
 Thumbs.db
 .vscode/settings.json
 *.log
+# ALZ library cache
+**/.alzlib/
+# Named plan files (not covered by *.tfplan glob)
+**/*.plan
+# Terraform errored state files
+**/errored.tfstate
